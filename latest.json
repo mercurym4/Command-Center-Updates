@@ -1,7 +1,7 @@
 {
-  "versionCode": 240,
+  "versionCode": 245,
   "versionName": "0.1.0-alpha01",
-  "apkUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/3dbb46fcc6c2044df0da5ad110b7452062a035f8/app-debug.apk",
-  "sha256": "016ef2ec19643b582a3adfc6971a56ea705535e67120f491357abafd75931324",
-  "sourceCommit": "be3ff2f2dc9677288933ec590949f2067d0065f1"
+  "apkUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/c045be4b8c1c9169ff53bba0b202c69dc30ac328/app-debug.apk",
+  "sha256": "43cbbf2323997d6d7fe613a60357dfb2a474641e67b0aea62f5d151a20b1d0a2",
+  "sourceCommit": "3351683e21a639acc4b3e391098a268148ec5e37"
 }
