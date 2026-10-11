@@ -1,3 +1,3 @@
 # Command Center Development Updates
 
-Binary-only development update channel for Command Center. Source code is maintained separately in a private repository.
+Development APK updates and their matching corresponding-source distributions. Each latest.json manifest includes immutable APK/source URLs and SHA-256 hashes. The development repository and history remain private; source rebuild instructions accompany each build under sources/.
