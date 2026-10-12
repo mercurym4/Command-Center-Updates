@@ -2,11 +2,22 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
+## Patch 327 — 2026-10-12
+
+### Added
+
+- Casual RetroAchievements earning for supported games after sign-in, with encrypted unlock storage and automatic delivery recovery.
+- Clear pending, confirmed and rejected unlock labels; account credit appears only after RetroAchievements confirms it.
+
+### Known issues
+
+- Hardcore mode and leaderboard submissions remain disabled.
+
 ## Patch 324 — 2026-10-12
 
-### Fixed
-
 - Pokémon Yellow cover art now resolves for Game Boy Color library entries while preserving the distinct Pokémon Yellow DX artwork.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/1724309f4130a3880c3d036293550fc60d6a5c93/latest.json
 
 ## Patch 317 — 2026-10-12
 
