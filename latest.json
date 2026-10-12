@@ -1,10 +1,11 @@
 {
-  "versionCode": 312,
+  "versionCode": 317,
   "versionName": "0.1.0-alpha01",
-  "apkUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/98aee64924a279fb4eb4bebc70b886b8564e4009/app-debug.apk",
-  "sha256": "0151a4cd7c667c90c0ee28a94732d36d043c468ad6ad72ee8df7cc41c3a1f655",
-  "sourceCommit": "d8a254e99444b86953d45a7c053e62fedf8df089",
-  "sourceUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/98aee64924a279fb4eb4bebc70b886b8564e4009/sources/build-312/corresponding-source.zip",
-  "sourceSha256": "9201f8997c36742dc63f25499f0ee10b49b9d7b5c4a747a4080e94a9db7a674b",
-  "sourceReadmeUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/98aee64924a279fb4eb4bebc70b886b8564e4009/sources/build-312/README.md"
+  "apkUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/5e50f5a934c00c28c22212e00aee681326ba5bb8/app-debug.apk",
+  "sha256": "4115aa5575872aa9ad10e89fb7d25074fa6f36ed5a796638a6f211c3b39bff53",
+  "sourceCommit": "c4d3a2690b4c362d59e9d7c5887688b996b68e7a",
+  "sourceUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/5e50f5a934c00c28c22212e00aee681326ba5bb8/sources/build-317/corresponding-source.zip",
+  "sourceSha256": "5083e2eaf9639df578501fd4fcbc4402d3a2240e7d727a132d71e196bfd64da2",
+  "sourceReadmeUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/5e50f5a934c00c28c22212e00aee681326ba5bb8/sources/build-317/README.md",
+  "patchNotesUrl": "https://raw.githubusercontent.com/mercurym4/Command-Center-Updates/5e50f5a934c00c28c22212e00aee681326ba5bb8/patches/build-317.json"
 }
