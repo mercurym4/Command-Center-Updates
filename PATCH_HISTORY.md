@@ -2,16 +2,19 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 317 — 2026-10-12
+## Patch 324 — 2026-10-12
 
-### Added
+### Fixed
+
+- Pokémon Yellow cover art now resolves for Game Boy Color library entries while preserving the distinct Pokémon Yellow DX artwork.
+
+## Patch 317 — 2026-10-12
 
 - Numbered patch notes tied to the installed build.
 - An offline Patch history view with dates and recovered changes for every recorded release, starting at Patch 35.
-
-### Improved
-
 - The update popup shows only the current patch. Older changes are grouped under their original patch numbers instead of appearing as new features.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/5e50f5a934c00c28c22212e00aee681326ba5bb8/latest.json
 
 ## Patch 312 — 2026-10-11
 
