@@ -2,16 +2,32 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 327 — 2026-10-12
+## Patch 391 — 2026-10-13
 
 ### Added
 
-- Casual RetroAchievements earning for supported games after sign-in, with encrypted unlock storage and automatic delivery recovery.
-- Clear pending, confirmed and rejected unlock labels; account credit appears only after RetroAchievements confirms it.
+- Manage saved ROM folders from Settings, including confirmed removal, adding a folder and rescanning.
+
+### Fixed
+
+- Remove old ROM-folder entries after moving games without deleting ROM files, saves or save states.
+- Center portrait gameplay in the full player viewport while retaining floating touch controls and Menu.
+
+### Improved
+
+- Rescans prune missing games only after a complete folder scan; unavailable folders and unreadable headers preserve cached history.
 
 ### Known issues
 
 - Hardcore mode and leaderboard submissions remain disabled.
+
+## Patch 327 — 2026-10-12
+
+- Casual RetroAchievements earning for supported games after sign-in, with encrypted unlock storage and automatic delivery recovery.
+- Clear pending, confirmed and rejected unlock labels; account credit appears only after RetroAchievements confirms it.
+- Hardcore mode and leaderboard submissions remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/c64a228c56749f61450a048164f6ae8e04d352e3/latest.json
 
 ## Patch 324 — 2026-10-12
 
