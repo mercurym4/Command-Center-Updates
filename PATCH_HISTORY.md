@@ -2,24 +2,30 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 391 — 2026-10-13
-
-### Added
-
-- Manage saved ROM folders from Settings, including confirmed removal, adding a folder and rescanning.
-
-### Fixed
-
-- Remove old ROM-folder entries after moving games without deleting ROM files, saves or save states.
-- Center portrait gameplay in the full player viewport while retaining floating touch controls and Menu.
+## Patch 415 — 2026-10-15
 
 ### Improved
 
-- Rescans prune missing games only after a complete folder scan; unavailable folders and unreadable headers preserve cached history.
+- Larger on-screen buttons with clearer outlines make player controls easier to see and use.
+- Game Boy Color Turbo now sits beside the right-hand A/B button cluster.
+
+### Fixed
+
+- Touch controls fit short landscape windows and stay clear of Menu and system insets.
 
 ### Known issues
 
 - Hardcore mode and leaderboard submissions remain disabled.
+
+## Patch 391 — 2026-10-13
+
+- Manage saved ROM folders from Settings, including confirmed removal, adding a folder and rescanning.
+- Remove old ROM-folder entries after moving games without deleting ROM files, saves or save states.
+- Center portrait gameplay in the full player viewport while retaining floating touch controls and Menu.
+- Rescans prune missing games only after a complete folder scan; unavailable folders and unreadable headers preserve cached history.
+- Hardcore mode and leaderboard submissions remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/5fee328102b31891cbbe69d9a8b3fbc5babeebeb/latest.json
 
 ## Patch 327 — 2026-10-12
 
