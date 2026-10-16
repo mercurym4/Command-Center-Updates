@@ -2,20 +2,33 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 415 — 2026-10-15
+## Patch 417 — 2026-10-16
 
 ### Improved
 
-- Larger on-screen buttons with clearer outlines make player controls easier to see and use.
-- Game Boy Color Turbo now sits beside the right-hand A/B button cluster.
+- Tighter D-pad spacing reduces the gap between direction buttons.
+- Slightly larger touch buttons improve visibility and reach while continuing to fit the available screen.
+
+### Added
+
+- Optional left-side Game Boy Color Turbo can be enabled in the game Menu; the existing right-side Turbo remains available.
 
 ### Fixed
 
-- Touch controls fit short landscape windows and stay clear of Menu and system insets.
+- Start and Select sit at the bottom safe edge, below the main touch controls.
 
 ### Known issues
 
 - Hardcore mode and leaderboard submissions remain disabled.
+
+## Patch 415 — 2026-10-15
+
+- Larger on-screen buttons with clearer outlines make player controls easier to see and use.
+- Game Boy Color Turbo now sits beside the right-hand A/B button cluster.
+- Touch controls fit short landscape windows and stay clear of Menu and system insets.
+- Hardcore mode and leaderboard submissions remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/9ea0a77000b60c7e6911ad36f5ba3a2751c4bc9e/latest.json
 
 ## Patch 391 — 2026-10-13
 
