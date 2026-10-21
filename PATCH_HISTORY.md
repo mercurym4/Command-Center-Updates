@@ -2,17 +2,27 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 470 — 2026-10-21
+## Patch 480 — 2026-10-21
 
-### Added
+### Fixed
 
-- Experimental Nintendo 64 playback with touch and controller input, pause/resume, save states and battery saves.
-- N64 uses the paraLLEl-RDP Vulkan renderer; matching source and notices accompany this development build.
+- N64 emulation runs separately from the screen so slow frames do not block controller releases and Menu.
+- Wider N64 controls with separated D-pad, C buttons and analog stick.
+- N64 renderer failures now show an error instead of silently continuing on a black screen.
 
 ### Known issues
 
+- N64 remains experimental. The reported Mario 64 startup failure has not yet been verified on a physical phone.
+- N64 achievement support is not qualified. Hardcore mode and leaderboard submissions remain disabled.
+
+## Patch 470 — 2026-10-21
+
+- Experimental Nintendo 64 playback with touch and controller input, pause/resume, save states and battery saves.
+- N64 uses the paraLLEl-RDP Vulkan renderer; matching source and notices accompany this development build.
 - N64 is experimental: phone compatibility and game performance vary and have not been broadly tested.
 - N64 achievement support is not qualified. Hardcore mode and leaderboard submissions remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/3d93a0be085f4f793996bd22ae51e5850b7081ab/latest.json
 
 ## Patch 417 — 2026-10-16
 
