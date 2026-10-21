@@ -2,24 +2,27 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 417 — 2026-10-16
-
-### Improved
-
-- Tighter D-pad spacing reduces the gap between direction buttons.
-- Slightly larger touch buttons improve visibility and reach while continuing to fit the available screen.
+## Patch 470 — 2026-10-21
 
 ### Added
 
-- Optional left-side Game Boy Color Turbo can be enabled in the game Menu; the existing right-side Turbo remains available.
-
-### Fixed
-
-- Start and Select sit at the bottom safe edge, below the main touch controls.
+- Experimental Nintendo 64 playback with touch and controller input, pause/resume, save states and battery saves.
+- N64 uses the paraLLEl-RDP Vulkan renderer; matching source and notices accompany this development build.
 
 ### Known issues
 
+- N64 is experimental: phone compatibility and game performance vary and have not been broadly tested.
+- N64 achievement support is not qualified. Hardcore mode and leaderboard submissions remain disabled.
+
+## Patch 417 — 2026-10-16
+
+- Tighter D-pad spacing reduces the gap between direction buttons.
+- Slightly larger touch buttons improve visibility and reach while continuing to fit the available screen.
+- Optional left-side Game Boy Color Turbo can be enabled in the game Menu; the existing right-side Turbo remains available.
+- Start and Select sit at the bottom safe edge, below the main touch controls.
 - Hardcore mode and leaderboard submissions remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/ea28f2fa0c7d91dbf31b17f75cf97f9a5394abc9/latest.json
 
 ## Patch 415 — 2026-10-15
 
