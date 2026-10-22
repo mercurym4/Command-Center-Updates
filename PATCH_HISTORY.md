@@ -2,17 +2,26 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 482 — 2026-10-22
+## Patch 484 — 2026-10-22
 
 ### Improved
 
-- N64 startup now offers a copyable diagnostic report when no picture appears after 20 seconds.
-- Copy startup report is also available in the N64 Menu, including during emulation stalls.
+- N64 synchronization now waits only for the app's submitted frame instead of draining the entire GPU queue.
+- N64 readback reports a failed or timed-out GPU wait instead of waiting indefinitely.
 
 ### Known issues
 
+- The reported Mario 64 startup stall on Adreno remains under verification; physical-phone playback is not yet confirmed.
+- N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+## Patch 482 — 2026-10-22
+
+- N64 startup now offers a copyable diagnostic report when no picture appears after 20 seconds.
+- Copy startup report is also available in the N64 Menu, including during emulation stalls.
 - The reported Mario 64 startup stall on the physical phone remains unresolved. This update collects the missing diagnostic details.
 - N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/d5085f8dbec8b8f551f749c2f0e2180a80d108a7/latest.json
 
 ## Patch 480 — 2026-10-21
 
