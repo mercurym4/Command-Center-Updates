@@ -2,17 +2,25 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 484 — 2026-10-22
+## Patch 486 — 2026-10-22
 
 ### Improved
 
-- N64 synchronization now waits only for the app's submitted frame instead of draining the entire GPU queue.
-- N64 readback reports a failed or timed-out GPU wait instead of waiting indefinitely.
+- N64 startup reports now retain the core's first-frame initialization, CPU, RSP and renderer progress independently of general log messages.
 
 ### Known issues
 
+- Mario 64 still fails to complete its first frame on the reported Samsung device. This diagnostic update does not claim to fix playback.
+- N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+## Patch 484 — 2026-10-22
+
+- N64 synchronization now waits only for the app's submitted frame instead of draining the entire GPU queue.
+- N64 readback reports a failed or timed-out GPU wait instead of waiting indefinitely.
 - The reported Mario 64 startup stall on Adreno remains under verification; physical-phone playback is not yet confirmed.
 - N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/832f5fc8496f5bf49b7f6410c78bacdbc4d3ba70/latest.json
 
 ## Patch 482 — 2026-10-22
 
