@@ -2,16 +2,24 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 486 — 2026-10-22
+## Patch 488 — 2026-10-22
 
 ### Improved
 
-- N64 startup reports now retain the core's first-frame initialization, CPU, RSP and renderer progress independently of general log messages.
+- N64 startup reports now distinguish RSP instruction loops, memory transfers, renderer callbacks and individual RDP command submissions.
 
 ### Known issues
 
 - Mario 64 still fails to complete its first frame on the reported Samsung device. This diagnostic update does not claim to fix playback.
 - N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+## Patch 486 — 2026-10-22
+
+- N64 startup reports now retain the core's first-frame initialization, CPU, RSP and renderer progress independently of general log messages.
+- Mario 64 still fails to complete its first frame on the reported Samsung device. This diagnostic update does not claim to fix playback.
+- N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/e2cb769b2ce7ccde14c185cfd861ea6af9254f27/latest.json
 
 ## Patch 484 — 2026-10-22
 
