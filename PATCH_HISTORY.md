@@ -2,18 +2,27 @@
 
 Patch numbers match installed build numbers. Publication dates are UTC. History begins with the first surviving published release, Patch 35; gaps are unreleased builds. Historical changes are recovered source summaries.
 
-## Patch 480 — 2026-10-21
+## Patch 482 — 2026-10-22
 
-### Fixed
+### Improved
+
+- N64 startup now offers a copyable diagnostic report when no picture appears after 20 seconds.
+- Copy startup report is also available in the N64 Menu, including during emulation stalls.
+
+### Known issues
+
+- The reported Mario 64 startup stall on the physical phone remains unresolved. This update collects the missing diagnostic details.
+- N64 achievements remain unqualified; hardcore and leaderboards remain disabled.
+
+## Patch 480 — 2026-10-21
 
 - N64 emulation runs separately from the screen so slow frames do not block controller releases and Menu.
 - Wider N64 controls with separated D-pad, C buttons and analog stick.
 - N64 renderer failures now show an error instead of silently continuing on a black screen.
-
-### Known issues
-
 - N64 remains experimental. The reported Mario 64 startup failure has not yet been verified on a physical phone.
 - N64 achievement support is not qualified. Hardcore mode and leaderboard submissions remain disabled.
+
+Evidence: https://github.com/mercurym4/Command-Center-Updates/blob/62e45e61c2a562a9902b36d9e591255e6969cfab/latest.json
 
 ## Patch 470 — 2026-10-21
 

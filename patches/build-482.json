@@ -1,0 +1,2359 @@
+{
+  "number": 482,
+  "date": "2026-10-22",
+  "source": "ec09eb60d92e005e01ca3f35d930794ce9bece8c",
+  "sections": [
+    {
+      "title": "Improved",
+      "entries": [
+        "N64 startup now offers a copyable diagnostic report when no picture appears after 20 seconds.",
+        "Copy startup report is also available in the N64 Menu, including during emulation stalls."
+      ]
+    },
+    {
+      "title": "Known issues",
+      "entries": [
+        "The reported Mario 64 startup stall on the physical phone remains unresolved. This update collects the missing diagnostic details.",
+        "N64 achievements remain unqualified; hardcore and leaderboards remain disabled."
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "number": 480,
+      "date": "2026-10-21",
+      "manifestCommit": "62e45e61c2a562a9902b36d9e591255e6969cfab",
+      "source": "1184d387be2b343b6c44d700a2c979c6164b44ae",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/39675658636",
+      "changes": [
+        "N64 emulation runs separately from the screen so slow frames do not block controller releases and Menu.",
+        "Wider N64 controls with separated D-pad, C buttons and analog stick.",
+        "N64 renderer failures now show an error instead of silently continuing on a black screen.",
+        "N64 remains experimental. The reported Mario 64 startup failure has not yet been verified on a physical phone.",
+        "N64 achievement support is not qualified. Hardcore mode and leaderboard submissions remain disabled."
+      ],
+      "evidence": "published patch snapshot",
+      "summary": "N64 UI freeze protection and separated controls",
+      "changeCount": 5,
+      "truncated": false
+    },
+    {
+      "number": 470,
+      "date": "2026-10-21",
+      "manifestCommit": "3d93a0be085f4f793996bd22ae51e5850b7081ab",
+      "source": "d1b1d55208c7b458ac7237a9557162712b52f631",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/39640264447",
+      "changes": [
+        "Experimental Nintendo 64 playback with touch and controller input, pause/resume, save states and battery saves.",
+        "N64 uses the paraLLEl-RDP Vulkan renderer; matching source and notices accompany this development build.",
+        "N64 is experimental: phone compatibility and game performance vary and have not been broadly tested.",
+        "N64 achievement support is not qualified. Hardcore mode and leaderboard submissions remain disabled."
+      ],
+      "evidence": "published patch snapshot",
+      "summary": "Experimental Nintendo 64 playback",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 417,
+      "date": "2026-10-16",
+      "manifestCommit": "ea28f2fa0c7d91dbf31b17f75cf97f9a5394abc9",
+      "source": "8b076cbe22815b6b0f587b06bf189378e3375f79",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38823990695",
+      "changes": [
+        "Tighter D-pad spacing reduces the gap between direction buttons.",
+        "Slightly larger touch buttons improve visibility and reach while continuing to fit the available screen.",
+        "Optional left-side Game Boy Color Turbo can be enabled in the game Menu; the existing right-side Turbo remains available.",
+        "Start and Select sit at the bottom safe edge, below the main touch controls.",
+        "Hardcore mode and leaderboard submissions remain disabled."
+      ],
+      "evidence": "published patch snapshot",
+      "summary": "Tighter D-pad, bottom Start/Select and optional left-side GBC Turbo",
+      "changeCount": 5,
+      "truncated": false
+    },
+    {
+      "number": 415,
+      "date": "2026-10-15",
+      "manifestCommit": "9ea0a77000b60c7e6911ad36f5ba3a2751c4bc9e",
+      "source": "53d364acdcc497dd084732c6e78204d3ab304f9c",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38676837444",
+      "changes": [
+        "Larger on-screen buttons with clearer outlines make player controls easier to see and use.",
+        "Game Boy Color Turbo now sits beside the right-hand A/B button cluster.",
+        "Touch controls fit short landscape windows and stay clear of Menu and system insets.",
+        "Hardcore mode and leaderboard submissions remain disabled."
+      ],
+      "evidence": "published patch snapshot",
+      "summary": "Larger outlined controls and right-side Game Boy Color Turbo",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 391,
+      "date": "2026-10-13",
+      "manifestCommit": "5fee328102b31891cbbe69d9a8b3fbc5babeebeb",
+      "source": "f9734f9b1d715723353722547a3c12a3f17cd9c9",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38463591843",
+      "changes": [
+        "Manage saved ROM folders from Settings, including confirmed removal, adding a folder and rescanning.",
+        "Remove old ROM-folder entries after moving games without deleting ROM files, saves or save states.",
+        "Center portrait gameplay in the full player viewport while retaining floating touch controls and Menu.",
+        "Rescans prune missing games only after a complete folder scan; unavailable folders and unreadable headers preserve cached history.",
+        "Hardcore mode and leaderboard submissions remain disabled."
+      ],
+      "evidence": "published patch snapshot",
+      "summary": "Manage ROM folders and center portrait gameplay",
+      "changeCount": 5,
+      "truncated": false
+    },
+    {
+      "number": 327,
+      "date": "2026-10-12",
+      "manifestCommit": "c64a228c56749f61450a048164f6ae8e04d352e3",
+      "source": "27c0e24a9047abead62400af23b9f6a2dcd96f37",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38317141433",
+      "changes": [
+        "Casual RetroAchievements earning for supported games after sign-in, with encrypted unlock storage and automatic delivery recovery.",
+        "Clear pending, confirmed and rejected unlock labels; account credit appears only after RetroAchievements confirms it.",
+        "Hardcore mode and leaderboard submissions remain disabled."
+      ],
+      "evidence": "manifest source",
+      "summary": "Publish Casual RetroAchievements earning and recovery",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 324,
+      "date": "2026-10-12",
+      "manifestCommit": "1724309f4130a3880c3d036293550fc60d6a5c93",
+      "source": "f02f99f1dc672b4d9dbe71b43fb7415aebf86bf2",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38216001940",
+      "changes": [
+        "Pok\u00e9mon Yellow cover art now resolves for Game Boy Color library entries while preserving the distinct Pok\u00e9mon Yellow DX artwork."
+      ],
+      "evidence": "manifest source",
+      "summary": "Fix Pok\u00e9mon Yellow artwork for GBC library entries",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 317,
+      "date": "2026-10-12",
+      "manifestCommit": "5e50f5a934c00c28c22212e00aee681326ba5bb8",
+      "source": "c4d3a2690b4c362d59e9d7c5887688b996b68e7a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38192511014",
+      "changes": [
+        "Numbered patch notes tied to the installed build.",
+        "An offline Patch history view with dates and recovered changes for every recorded release, starting at Patch 35.",
+        "The update popup shows only the current patch. Older changes are grouped under their original patch numbers instead of appearing as new features."
+      ],
+      "evidence": "manifest source",
+      "summary": "Show numbered patch notes and preserve published release history",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 312,
+      "date": "2026-10-11",
+      "manifestCommit": "75b03643e109b272cf3f60891f8c11c9bb8a0347",
+      "source": "d8a254e99444b86953d45a7c053e62fedf8df089",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38175465461",
+      "changes": [
+        "Added complete artwork catalogs for Game Boy, Game Boy Color and Game Boy Advance.",
+        "Fixed Stretch gameplay padding above the image, including the camera-cutout area.",
+        "Fixed library refresh stopping when an artwork catalog is missing; existing and manual covers are preserved."
+      ],
+      "evidence": "manifest source",
+      "summary": "Fix handheld artwork refresh and fullscreen cutout padding",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 309,
+      "date": "2026-10-11",
+      "manifestCommit": "a7f237df643c26d25ed55ef9cf7a1a8121fceef0",
+      "source": "439759d5e997a139a74ae2fc82e8645405787688",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38156686304",
+      "changes": [
+        "Added Game Boy, Game Boy Color and Game Boy Advance playback with distinct system cards and handheld controls.",
+        "Added handheld battery saves, save states and supported cartridge-clock persistence.",
+        "Fixed handheld startup/lifecycle crashes and clipped GBA controls.",
+        "Improved achievement-client regression reliability.",
+        "Added matching corresponding-source downloads alongside each development APK."
+      ],
+      "evidence": "manifest source",
+      "summary": "Publish approved corresponding source with handheld development updates",
+      "changeCount": 44,
+      "truncated": false
+    },
+    {
+      "number": 285,
+      "date": "2026-10-10",
+      "manifestCommit": "919f82fdbf6d0d6a457c0513e1ded03e8836fd79",
+      "source": "7d239515c17c36f0169c25405b115c0ee9713253",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38034591604",
+      "changes": [
+        "Add dedicated Achievements tab and verify Google Play release candidates",
+        "Prepare signed Play release workflow, source archives and store materials",
+        "Fix Scaffold navigation lambda closure",
+        "Pin the native toolchain and check actual RELRO writable-data overlap",
+        "Keep the full Achievements label visible on narrow navigation",
+        "Scope navigation overflow assertion to the tab label",
+        "Set compact navigation line height and verify settled tab layout first",
+        "Give the Achievements label a bounded width beyond navigation padding"
+      ],
+      "evidence": "manifest source",
+      "summary": "Give the Achievements label a bounded width beyond navigation padding",
+      "changeCount": 14,
+      "truncated": false
+    },
+    {
+      "number": 277,
+      "date": "2026-10-10",
+      "manifestCommit": "8ebd41a6ce287e5abd87607ceadb0bf09f0e6394",
+      "source": "f7eeb9d2e4083f2bcb82a647fdc9a41f6b05499b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38020987869",
+      "changes": [
+        "Recover transient RetroAchievements reads and service paused clients"
+      ],
+      "evidence": "manifest source",
+      "summary": "Recover transient RetroAchievements reads and service paused clients",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 276,
+      "date": "2026-10-10",
+      "manifestCommit": "17a9d99286b4eed13428faa30114f176a7877817",
+      "source": "3a44251a4fed2d60c0a9effe1dbaf8f0f75bf0f1",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38010413800",
+      "changes": [
+        "Enable notification categories by default and request Android permission at startup",
+        "Automatically upgrade untouched legacy notification categories for banners",
+        "Guide notification setup after upgrade with permission and category settings actions"
+      ],
+      "evidence": "manifest source",
+      "summary": "Guide notification setup after upgrade with permission and category settings actions",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 273,
+      "date": "2026-10-10",
+      "manifestCommit": "040a6d8182c2f18b0a939221e99f09f7bd33cf1b",
+      "source": "f4c17b0cb885f187ff2fd20a67a39b98a7d59a2f",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38007437500",
+      "changes": [
+        "feat: show service-earned RetroAchievements history separately from previews"
+      ],
+      "evidence": "manifest source",
+      "summary": "feat: show service-earned RetroAchievements history separately from previews",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 272,
+      "date": "2026-10-09",
+      "manifestCommit": "fd8ae0a2d7a928e0e7536b6a1f828ffd89c983fe",
+      "source": "0e7a5b9390435816e38a7db4b8717161706d3a64",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/38002345466",
+      "changes": [
+        "Activate Firebase client and validate live sender before publication"
+      ],
+      "evidence": "manifest source",
+      "summary": "Activate Firebase client and validate live sender before publication",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 270,
+      "date": "2026-10-09",
+      "manifestCommit": "2ef9aef04037acbb3784c5882c9caddf0f65bf4b",
+      "source": "dc38f9f21b7b66a0e4f0ad652051f824177a2d69",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37981574543",
+      "changes": [
+        "Make translucent controls visibly lighter with faint fills and outlines",
+        "Remove the portrait control band and float outlined controls over the full game frame",
+        "Keep floating control labels readable over bright game graphics",
+        "Verify floating portrait controls against rendered game pixels"
+      ],
+      "evidence": "manifest source",
+      "summary": "Verify floating portrait controls against rendered game pixels",
+      "changeCount": 5,
+      "truncated": false
+    },
+    {
+      "number": 266,
+      "date": "2026-10-09",
+      "manifestCommit": "6f97887fa8a1f837d65a6cbc1099c8dd1fa278d3",
+      "source": "21ed7660278f60ae325fd3939e172aee4468a938",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37974998758",
+      "changes": [
+        "Restart and recover game audio after turbo and interrupted playback"
+      ],
+      "evidence": "manifest source",
+      "summary": "Restart and recover game audio after turbo and interrupted playback",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 265,
+      "date": "2026-10-09",
+      "manifestCommit": "ca0d8460075898ffb0e5200acf20a7edee67b168",
+      "source": "29ae57645e6f442d86edfc36d8873ba7cab4a2be",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37972534455",
+      "changes": [
+        "Restore portrait R2 fast-forward and the SNES face-button diamond",
+        "Make gameplay controls and the floating Menu pill translucent",
+        "Increase gameplay touch-control dimensions by five percent",
+        "Keep enlarged SNES face buttons in a compact diamond with circular touch regions",
+        "Expose full touch-button bounds for accessibility and size verification",
+        "Label full circular touch controls explicitly in accessibility"
+      ],
+      "evidence": "manifest source",
+      "summary": "Label full circular touch controls explicitly in accessibility",
+      "changeCount": 7,
+      "truncated": false
+    },
+    {
+      "number": 259,
+      "date": "2026-10-09",
+      "manifestCommit": "7dd5485c73d116fd34a9c96425df1bd5ed13b7b4",
+      "source": "e044036c8dff30a057816754f05365b0367c07e5",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37963202412",
+      "changes": [
+        "Let the Menu pill float without reserving a portrait header"
+      ],
+      "evidence": "manifest source",
+      "summary": "Let the Menu pill float without reserving a portrait header",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 258,
+      "date": "2026-10-09",
+      "manifestCommit": "59fb883398e75039a9a5bc0a90c9b03e3636cbef",
+      "source": "c7fb324f0bb8329b5a98de0cea93b1320cfefe12",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37959231945",
+      "changes": [
+        "Compact portrait touch controls and reclaim gameplay space"
+      ],
+      "evidence": "manifest source",
+      "summary": "Compact portrait touch controls and reclaim gameplay space",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 257,
+      "date": "2026-10-09",
+      "manifestCommit": "6183897964c7890b86fe03c6a6d830d9baefbfd1",
+      "source": "ec1efdf31101f0e8a049aba4cb099690fc011b7f",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37873872806",
+      "changes": [
+        "Preserve complete portrait game frames and keep touch controls below the image",
+        "Correct newline formatting in portrait scaling update notes"
+      ],
+      "evidence": "manifest source",
+      "summary": "Correct newline formatting in portrait scaling update notes",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 255,
+      "date": "2026-10-08",
+      "manifestCommit": "734def0838b593c2f342f3109000d9a4ba90fe98",
+      "source": "3a631cdd5e88ab944589b694449f83400cbe06e8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37827941384",
+      "changes": [
+        "Evaluate RetroAchievements gameplay previews with official memory maps and saved runtime progress",
+        "Keep libretro ABI declarations compatible with the C memory adapter",
+        "Expose the local libretro header to frontend memory adapter includes",
+        "Keep spectator previews separate from service account point totals",
+        "Capture achievement progress evidence on its themed surface"
+      ],
+      "evidence": "manifest source",
+      "summary": "Capture achievement progress evidence on its themed surface",
+      "changeCount": 6,
+      "truncated": false
+    },
+    {
+      "number": 249,
+      "date": "2026-10-08",
+      "manifestCommit": "49ebf0bf93512e5c3233e54aff80efbca6c01b1b",
+      "source": "45ba6356917baf8045f5b8f5d74c4d805bdb472c",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37727085738",
+      "changes": [
+        "Add local player profiles, separate stats and Command Center milestone achievements"
+      ],
+      "evidence": "manifest source",
+      "summary": "Add local player profiles, separate stats and Command Center milestone achievements",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 248,
+      "date": "2026-10-08",
+      "manifestCommit": "85ff75d0645d686d097c504b6547e3378d527296",
+      "source": "e39d15fbe1b469c999739d1a9adf3c72b4920b90",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37722412371",
+      "changes": [
+        "Organize Systems console menus and add dedicated achievements with official badges"
+      ],
+      "evidence": "manifest source",
+      "summary": "Organize Systems console menus and add dedicated achievements with official badges",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 247,
+      "date": "2026-10-08",
+      "manifestCommit": "1358876f428347c17490810c35d57f7ad80a80e2",
+      "source": "40c3558c12ea9e202531c3b44dd7e81de631c677",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37715032345",
+      "changes": [
+        "Connect RetroAchievements accounts and browse official game sets",
+        "Fix achievement UI test lifecycle and SDK version expectations"
+      ],
+      "evidence": "manifest source",
+      "summary": "Fix achievement UI test lifecycle and SDK version expectations",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 245,
+      "date": "2026-10-08",
+      "manifestCommit": "7c030f73c77624055c25f329eef2cdac14e43aec",
+      "source": "3351683e21a639acc4b3e391098a268148ec5e37",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37705342863",
+      "changes": [
+        "Start official RetroAchievements ROM identity and improve notification inbox controls",
+        "Provide libretro headers to the pinned RetroAchievements adapter",
+        "Exclude optional memory adapter until frontend memory maps are integrated",
+        "Scope unread badge checks to the Settings and notification dialog controls",
+        "Find unread labels in the unmerged button semantics tree"
+      ],
+      "evidence": "manifest source",
+      "summary": "Find unread labels in the unmerged button semantics tree",
+      "changeCount": 6,
+      "truncated": false
+    },
+    {
+      "number": 240,
+      "date": "2026-10-07",
+      "manifestCommit": "c990978bad1922c9ea5af17af1023690a6b2ad4c",
+      "source": "be3ff2f2dc9677288933ec590949f2067d0065f1",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37644108128",
+      "changes": [
+        "Add opt-in Firebase notification client, announcement inbox and conditional update push publishing",
+        "Validate optional push publisher identity and document token permissions",
+        "Use conditional Python OAuth sender instead of an additional workflow action",
+        "Refresh an open notification inbox when new messages arrive"
+      ],
+      "evidence": "manifest source",
+      "summary": "Refresh an open notification inbox when new messages arrive",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 236,
+      "date": "2026-10-07",
+      "manifestCommit": "3ea1d4c26fb547d88341c2bce354d3dbe68772eb",
+      "source": "24f0ff52aa2f65f5f151d7cfd9d69e0c2a67cd4b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37639957208",
+      "changes": [
+        "Add optional gameplay performance panel with actual emulated speed and audio diagnostics",
+        "Match selected display mode label in gameplay diagnostics verification",
+        "Show scrollable installed update notes once per build and reopen them from Settings",
+        "Keep restored update-notes visibility scoped to the installed build"
+      ],
+      "evidence": "manifest source",
+      "summary": "Keep restored update-notes visibility scoped to the installed build",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 232,
+      "date": "2026-10-07",
+      "manifestCommit": "5f3397d305bb12d79c106861790fb9a2aafa8e7e",
+      "source": "649c620d7a5a576b4466c3c386336609090d0571",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37565553015",
+      "changes": [
+        "Repair missing or damaged downloaded covers on refresh and distinguish artwork catalog misses from failed downloads"
+      ],
+      "evidence": "manifest source",
+      "summary": "Repair missing or damaged downloaded covers on refresh and distinguish artwork catalog misses from failed downloads",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 231,
+      "date": "2026-10-07",
+      "manifestCommit": "6eeaa0ef8defc2e13c54147d4ac3cd66aff51343",
+      "source": "019a73fda9d1de9e96d65e1d37a403fdca490689",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37551760876",
+      "changes": [
+        "Recover readable ROM folders after provider failures and reduce repeated large-library sorting",
+        "Scope large-library search assertions to game cards rather than editable search text"
+      ],
+      "evidence": "manifest source",
+      "summary": "Scope large-library search assertions to game cards rather than editable search text",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 229,
+      "date": "2026-10-06",
+      "manifestCommit": "67afc4fb92c00071dec8ed20803adac3d7a58303",
+      "source": "5add2fe86cb6af3569a1629550aeaf2799fd8015",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37519363773",
+      "changes": [
+        "Checkpoint completed artwork through interrupted foreground scans and bound bulk import updates"
+      ],
+      "evidence": "manifest source",
+      "summary": "Checkpoint completed artwork through interrupted foreground scans and bound bulk import updates",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 228,
+      "date": "2026-10-06",
+      "manifestCommit": "db16cafba59b4b1992d5b2b4a5d289dcbca2ab8c",
+      "source": "7c4508aae5ebd059a7ff7e0a5834c5ef0e98ff71",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37497030088",
+      "changes": [
+        "Fit full custom backgrounds across Fold screen changes with persistent fit and fill controls"
+      ],
+      "evidence": "manifest source",
+      "summary": "Fit full custom backgrounds across Fold screen changes with persistent fit and fill controls",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 227,
+      "date": "2026-10-06",
+      "manifestCommit": "da175a15a4e6e3596a3b7cdfb9ff12fc013dd18d",
+      "source": "f5db61e81efd1e3706a60eda93619542c59394d8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37395546773",
+      "changes": [
+        "Persist cartridge battery saves and add verified in-game backup restore",
+        "Declare libretro battery memory ABI in frontend header",
+        "Keep full load-time SRAM capacity when Genesis reports modified byte ranges",
+        "Dismiss emulator launcher ANR before real controller injection and screenshot capture"
+      ],
+      "evidence": "manifest source",
+      "summary": "Dismiss emulator launcher ANR before real controller injection and screenshot capture",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 223,
+      "date": "2026-10-05",
+      "manifestCommit": "7dbab140441fe37904d7036e3243e11413720dd5",
+      "source": "9903d725e852a1e91551a22be690ee4a26858a7c",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37320864956",
+      "changes": [
+        "Add per-system controller mappings, dead zones and live diagnostics",
+        "Wait for paused menu before comparing diagnostic native state",
+        "Fix connected gamepad enumeration for Android device ID arrays"
+      ],
+      "evidence": "manifest source",
+      "summary": "Fix connected gamepad enumeration for Android device ID arrays",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 220,
+      "date": "2026-10-05",
+      "manifestCommit": "362b6ff8b2ee6f7f5b91edcf364b70597bb14de7",
+      "source": "a0d66ed1aa483661ab5ba8b1fdd4be3afd66756a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37269278950",
+      "changes": [
+        "Add game-screen previews to save states and preserve them in backups"
+      ],
+      "evidence": "manifest source",
+      "summary": "Add game-screen previews to save states and preserve them in backups",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 219,
+      "date": "2026-10-05",
+      "manifestCommit": "1a3eaecbf0bf58900a9b3f73366983eb939199ad",
+      "source": "194a54468883c1d5ee82cc88590d1e7c1bd18b0f",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37260416221",
+      "changes": [
+        "Reject deeply nested backup metadata before JSON parsing and verify escaped save names"
+      ],
+      "evidence": "manifest source",
+      "summary": "Reject deeply nested backup metadata before JSON parsing and verify escaped save names",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 218,
+      "date": "2026-10-05",
+      "manifestCommit": "001fa1bc31f5cc433a252c556dbd3d4449d31ac6",
+      "source": "7469ce08fd76feebd0955e4780a07da2e13b8afe",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37259511903",
+      "changes": [
+        "Add per-game save-state backups and validated restore without overwriting existing snapshots",
+        "Let save lists shrink around backup controls and keep empty-state dialogs compact"
+      ],
+      "evidence": "manifest source",
+      "summary": "Let save lists shrink around backup controls and keep empty-state dialogs compact",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 216,
+      "date": "2026-10-05",
+      "manifestCommit": "fefa537f151a0d3aa97295ab2b48056168fe5b13",
+      "source": "c58784abdffd5f305495df9e942d4774a25eff8b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37254380066",
+      "changes": [
+        "Add touch haptics and selectable turbo up to 20x with measured gameplay speed",
+        "Keep default save placeholder visible before focus and allow idle between overloaded turbo batches"
+      ],
+      "evidence": "manifest source",
+      "summary": "Keep default save placeholder visible before focus and allow idle between overloaded turbo batches",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 214,
+      "date": "2026-10-05",
+      "manifestCommit": "78619350e8d7831f92cf8721c367e5ee8a41cc0f",
+      "source": "cd80717113524b30324b110cdc0dc5e4b1406adf",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37253401413",
+      "changes": [
+        "Fix audio frame pacing and retain partial PCM writes; show default save name"
+      ],
+      "evidence": "manifest source",
+      "summary": "Fix audio frame pacing and retain partial PCM writes; show default save name",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 213,
+      "date": "2026-10-04",
+      "manifestCommit": "5cb36a8638d1414b5efeedc14eb1610cca626e8a",
+      "source": "49ed4df71af581493ea3b656da932c495ea14d5b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37241019530",
+      "changes": [
+        "Prompt for save-state names before creation and clarify saved-state loading",
+        "Keep save-name prompt scrollable when the keyboard reduces available height",
+        "Focus the save-name editor and verify real keyboard input in player test",
+        "Recover only the emulator Quickstep ANR overlay during player verification",
+        "Target the editable save-name node instead of its label wrapper in native UI test"
+      ],
+      "evidence": "manifest source",
+      "summary": "Target the editable save-name node instead of its label wrapper in native UI test",
+      "changeCount": 5,
+      "truncated": false
+    },
+    {
+      "number": 208,
+      "date": "2026-10-04",
+      "manifestCommit": "7f0e4d77f3720caba24e0a8baece6ec8b779a491",
+      "source": "8297ec864358a8e840483401d70b08abbcf4e354",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37235617335",
+      "changes": [
+        "Add persistent save-state names and compact accessible list actions",
+        "Keep long-name UI test fixture within supported 64-character limit",
+        "Disambiguate rename confirmation button from editable field in UI verification"
+      ],
+      "evidence": "manifest source",
+      "summary": "Disambiguate rename confirmation button from editable field in UI verification",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 205,
+      "date": "2026-10-04",
+      "manifestCommit": "7c541de522d3f953f562036b5a54bd1494a97a86",
+      "source": "aed6cac41184e91f31706138dead10440dcc259d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37227274690",
+      "changes": [
+        "Apply retro muscle mascot and command station adaptive launcher icon"
+      ],
+      "evidence": "manifest source",
+      "summary": "Apply retro muscle mascot and command station adaptive launcher icon",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 204,
+      "date": "2026-10-04",
+      "manifestCommit": "5d13279ff9a5781c19fa059edaa54533de4aaf05",
+      "source": "e0ded2ae1db4d3cebfcf940e59d7ec2e42ac389a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37224426655",
+      "changes": [
+        "Add per-game multiple save states with dated list, selection and individual deletion",
+        "Retire legacy migration source when deleting an existing save",
+        "Verify selected save restoration against the core's normalized load result"
+      ],
+      "evidence": "manifest source",
+      "summary": "Verify selected save restoration against the core's normalized load result",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 201,
+      "date": "2026-10-04",
+      "manifestCommit": "fdffe8c655f92a90d6a04181b441f30baeb174b0",
+      "source": "ad5a6a0636433fe336f201ff504dfa730c0763d0",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37221990803",
+      "changes": [
+        "Automatically refresh saved ROM folders and missing artwork on foreground entry",
+        "Expose per-system library links and reset stale filters when browsing a console"
+      ],
+      "evidence": "manifest source",
+      "summary": "Expose per-system library links and reset stale filters when browsing a console",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 199,
+      "date": "2026-10-04",
+      "manifestCommit": "9cdf1efbc41352064cebcbf5060fd858b79f9c1a",
+      "source": "df3e33b5fab7b5d1c9fbcc0a18c551a2cab977d0",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37218560481",
+      "changes": [
+        "Match reported SNES artwork aliases and GoodTools Europe/Japan regions"
+      ],
+      "evidence": "manifest source",
+      "summary": "Match reported SNES artwork aliases and GoodTools Europe/Japan regions",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 198,
+      "date": "2026-10-04",
+      "manifestCommit": "4244b624285aba860d861b0b54c8de1c0acf469e",
+      "source": "e155f81fcd9fe4bb9e03fd6e14926851c67f841d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37213419842",
+      "changes": [
+        "Resolve artwork using real catalogs with backup downloads and metadata-safe merges",
+        "Verify artwork backup host with a live forced-failover download",
+        "Check the artwork accessibility label using the full imported ROM title",
+        "Keep artwork test void and wait for resumed player focus before controller dispatch"
+      ],
+      "evidence": "manifest source",
+      "summary": "Keep artwork test void and wait for resumed player focus before controller dispatch",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 194,
+      "date": "2026-10-04",
+      "manifestCommit": "0245299c7e0151a17c434d7803b57a41f389af9d",
+      "source": "1c6e02ae2d550112372e70a2e6369d59fe500099",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37173019488",
+      "changes": [
+        "Polish Genesis cover controls and capture settled dialog screenshots"
+      ],
+      "evidence": "manifest source",
+      "summary": "Polish Genesis cover controls and capture settled dialog screenshots",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 193,
+      "date": "2026-10-04",
+      "manifestCommit": "1bd9e6f5ece673c2d44f1b7667149194db815d64",
+      "source": "2bde6874adc76db4a7ce9e1d784792b566182ff8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37172361067",
+      "changes": [
+        "Add Genesis cartridge playback with six-button controls and native regression coverage",
+        "Verify Genesis system dashboard, setup and controller guidance"
+      ],
+      "evidence": "manifest source",
+      "summary": "Verify Genesis system dashboard, setup and controller guidance",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 191,
+      "date": "2026-10-04",
+      "manifestCommit": "b0af69441a6248cd05696fdb5f9fa56a1a637101",
+      "source": "a07fd19b7e7ca6a909416e2eff3da5dbf3ce6573",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37171027945",
+      "changes": [
+        "Handle analog controllers and pause gameplay safely across menus and background transitions",
+        "Keep fast-forward state current inside the running emulation loop",
+        "Verify continuously rendering player through live Android UI actions",
+        "Traverse Compose accessibility children in live player tests and capture failure evidence",
+        "Dismiss Android fullscreen onboarding in fresh CI emulator before player verification",
+        "Handle delayed system fullscreen tutorial during live player UI verification"
+      ],
+      "evidence": "manifest source",
+      "summary": "Handle delayed system fullscreen tutorial during live player UI verification",
+      "changeCount": 6,
+      "truncated": false
+    },
+    {
+      "number": 185,
+      "date": "2026-10-04",
+      "manifestCommit": "0a44c587f9dc7fadcc2d37b6a8756be7c8afacea",
+      "source": "d014bda14c7e0b8bc619903c723da197f48738d6",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37166653619",
+      "changes": [
+        "Separate game browsing from console readiness and setup",
+        "Add ranked system playtime, podium stars, controller options and per-console display settings"
+      ],
+      "evidence": "manifest source",
+      "summary": "Add ranked system playtime, podium stars, controller options and per-console display settings",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 183,
+      "date": "2026-10-04",
+      "manifestCommit": "ae43aeeaa1823de368d8b777fb9cef9b52186f9f",
+      "source": "fa2c5fdc0f650a6e1b29affec346073221fa2d44",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37164981687",
+      "changes": [
+        "Consolidate document aliases and show added dates and activity on game cards",
+        "Preserve save states across document alias consolidation"
+      ],
+      "evidence": "manifest source",
+      "summary": "Preserve save states across document alias consolidation",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 181,
+      "date": "2026-10-03",
+      "manifestCommit": "748ccfab4ef00c0a6da69ac7ebca01a389442368",
+      "source": "126c8d8478d749fd89a40b427506db1b61c34113",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37160576026",
+      "changes": [
+        "Add pinned SNES playback, system-aware controls and native core-switch regression tests",
+        "Account for SNES RGB565 green quantization in native input regression"
+      ],
+      "evidence": "manifest source",
+      "summary": "Account for SNES RGB565 green quantization in native input regression",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 179,
+      "date": "2026-10-03",
+      "manifestCommit": "3700a04c27c171ce33dffe720cef7bb4ffdaad7b",
+      "source": "91ea78dd8411799a7c206a1e6b4aeac7b52b2e08",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37156283074",
+      "changes": [
+        "Compact Home banner and responsive Library toolbar without hiding game stats",
+        "Use DpRect edges for responsive toolbar and banner size assertions"
+      ],
+      "evidence": "manifest source",
+      "summary": "Use DpRect edges for responsive toolbar and banner size assertions",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 177,
+      "date": "2026-10-03",
+      "manifestCommit": "c64f57e63927831d0401a2e9081d2ad06330e222",
+      "source": "92cf6d9c00c9695c5ea0ba3a944bbcf875f2d07b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37149682524",
+      "changes": [
+        "Restore visible playtime, launches and last played on Home game previews"
+      ],
+      "evidence": "manifest source",
+      "summary": "Restore visible playtime, launches and last played on Home game previews",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 176,
+      "date": "2026-10-03",
+      "manifestCommit": "63f3cf3b90e66a1a480047bde58db63a14ebd57c",
+      "source": "e8fbd8c11ff77a4f82926924ee915a17d04e7e69",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37147525908",
+      "changes": [
+        "Overhaul Home, Library and Systems with responsive Fold layouts and verified publishing gates",
+        "Fix emulator disk exhaustion, add console silhouettes and verify Fold resize and APK identity",
+        "Reserve runner disk space required by Android emulator userdata image",
+        "Preserve UI screenshots after test uninstall and correctly validate native APK ABI; protect controls over bright backgrounds",
+        "Export screenshot bytes through UiAutomation stdin and verify complete file writes",
+        "Publish verified responsive launcher overhaul with immutable APK update URLs"
+      ],
+      "evidence": "manifest source",
+      "summary": "Publish verified responsive launcher overhaul with immutable APK update URLs",
+      "changeCount": 6,
+      "truncated": false
+    },
+    {
+      "number": 170,
+      "date": "2026-10-03",
+      "manifestCommit": "01f5678dadd18d04e94413504955079f2bd05447",
+      "source": "fd8daeab19fceba7a4d469754c9d02b4746049b8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37132376486",
+      "changes": [
+        "Visual overhaul pass: compact unified banners and artwork cards, reclaim Home and Library space"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Visual overhaul pass: compact unified banners and artwork cards, reclaim Home and Library space",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 169,
+      "date": "2026-10-03",
+      "manifestCommit": "395ca33ae2486ba385a6f53fc0b41511308f4d56",
+      "source": "82c9c58f2dc8d46b859812cda37ee90bea2bd2ba",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37132095659",
+      "changes": [
+        "Compact Systems preview cards and place Library navigation before game shelf"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Compact Systems preview cards and place Library navigation before game shelf",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 168,
+      "date": "2026-10-03",
+      "manifestCommit": "6f7aec9835f8d6b65edc22cef88e474e87eb9300",
+      "source": "c5ca55b97716741804c8d4c7e85a2cbe7094344a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37130594927",
+      "changes": [
+        "Add compact horizontal game previews to each Systems console card"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add compact horizontal game previews to each Systems console card",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 167,
+      "date": "2026-10-03",
+      "manifestCommit": "b4c62afa59247b955f0299071add7b30fd886486",
+      "source": "e8f67a5fa9dcc427ff6eb6098523d891b61fb68d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37129270094",
+      "changes": [
+        "Restore compact horizontal game previews under each Library console"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Restore compact horizontal game previews under each Library console",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 166,
+      "date": "2026-10-03",
+      "manifestCommit": "e3437d891133c7e5f29cd949861e93832a592050",
+      "source": "30f32482804f47910ce1a961d85f01725d52869d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37127409554",
+      "changes": [
+        "Make Library console collections compact; remove duplicate preview game shelves"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Make Library console collections compact; remove duplicate preview game shelves",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 165,
+      "date": "2026-10-03",
+      "manifestCommit": "d0a19dd1e93e30748a4a3868fb541ea446cdd1f4",
+      "source": "9ba9b67b2a8f35927794a178908a333555c3f5b4",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37125985573",
+      "changes": [
+        "Remove duplicate game heading from focused Library toolbar"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Remove duplicate game heading from focused Library toolbar",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 164,
+      "date": "2026-10-03",
+      "manifestCommit": "17b4b3eedb8833241ae260f38fe420207dc2d3a5",
+      "source": "c427fbb4b6e95a184202e0a142eea62c4ac80c27",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37096694916",
+      "changes": [
+        "Fix Library collections vertical scrolling and show game results only in focused library"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Fix Library collections vertical scrolling and show game results only in focused library",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 163,
+      "date": "2026-10-03",
+      "manifestCommit": "b2f194a10e24b59a8a1005b505f744aa42d989be",
+      "source": "88273ed328f4412aac8a98e356fd312024437193",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37095820270",
+      "changes": [
+        "Add compact Library search and favorites-only browsing within console collections"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add compact Library search and favorites-only browsing within console collections",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 162,
+      "date": "2026-10-03",
+      "manifestCommit": "ae8b54a54f29592e3d8a79bd999313a13cfc9193",
+      "source": "e86fa657b47fed9d46f1b5b952307e960ee6a110",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37095459357",
+      "changes": [
+        "Make Systems console management only; remove duplicate game shelves"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Make Systems console management only; remove duplicate game shelves",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 161,
+      "date": "2026-10-03",
+      "manifestCommit": "7d7e844c7db324c82bba791e1023442991d9e91a",
+      "source": "d71253e95eae0979e28ccb68dd53830a7f9da293",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37092982122",
+      "changes": [
+        "Declutter Home Favorites and Systems; show imported consoles only and unify game cards"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Declutter Home Favorites and Systems; show imported consoles only and unify game cards",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 160,
+      "date": "2026-10-03",
+      "manifestCommit": "37689a7b3cd9d86bdd600eec72da0f83d63367f8",
+      "source": "5a26a05f29cee12f6a0671fbf1cbf8e39166e32b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37089566267",
+      "changes": [
+        "Fix Fold library viewport: compact focused browsing header and hide maintenance controls",
+        "Prioritize game browsing: collapse Library filters, compact toolbar and remove oversized grid metadata"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Prioritize game browsing: collapse Library filters, compact toolbar and remove oversized grid metadata",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 158,
+      "date": "2026-10-03",
+      "manifestCommit": "f701a659bc35fa0a8a44906074bc07872da94f3c",
+      "source": "9ce25212aa08a0e445e1d5910ffb92111a9a10a7",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37086952196",
+      "changes": [
+        "Premium overhaul: unified cinematic cover tiles, console identity, streamlined collections, accurate global hero and recency",
+        "Premium overhaul: compact brand masthead, emphasized navigation, cinematic library grid",
+        "Fix stale Recent card block left after unified premium tile migration"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Fix stale Recent card block left after unified premium tile migration",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 155,
+      "date": "2026-10-03",
+      "manifestCommit": "24bc4fe249129427b2c89f52312d6f55d154ed32",
+      "source": "0b3e6dd09ac6fca4acb17d5c25d8a45596ea1cee",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37084432256",
+      "changes": [
+        "Make View library open focused game list instead of reselecting active console"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Make View library open focused game list instead of reselecting active console",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 154,
+      "date": "2026-10-03",
+      "manifestCommit": "460527670868e57b2823529e1b4b4dc3cc6a4edc",
+      "source": "338fe86804993faed894a1be3eeda88e7253a3b0",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37080021180",
+      "changes": [
+        "Match Favorites and Recent section backdrops to compact command deck header"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Match Favorites and Recent section backdrops to compact command deck header",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 153,
+      "date": "2026-10-02",
+      "manifestCommit": "f27dccf488da86f473a7ea5d3f7d6b95d139e062",
+      "source": "0970fe93e09b8e89bb5475e103edc0243da24ed7",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37076190006",
+      "changes": [
+        "Improve navigation hierarchy with bold high-contrast section headers and active-system breadcrumbs"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Improve navigation hierarchy with bold high-contrast section headers and active-system breadcrumbs",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 152,
+      "date": "2026-10-02",
+      "manifestCommit": "97677dc3204d4f5e024a84d7073cf000b82ccc5a",
+      "source": "f4b5e8fdacf81a9dc4aab36098114af0e92b8c4e",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37074855469",
+      "changes": [
+        "Premium phase 2: cohesive console identity banners and adaptive collection styling"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Premium phase 2: cohesive console identity banners and adaptive collection styling",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 151,
+      "date": "2026-10-02",
+      "manifestCommit": "5f68c0425f8758f57bf4feb77a1df3d6caf524ec",
+      "source": "693ba72756a26be2c834688ff9f8a7fa3725eaf5",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37063718625",
+      "changes": [
+        "Premium UI phase one: cinematic featured hero and distinct navigation icons",
+        "Restore console collection browsing directly in Library with cover cards and system filtering",
+        "Restore full Systems-style console sections and game shelves within Library",
+        "Unify system filtering across Home collections Favorites and Library sorting",
+        "Apply shared console selection to Home shelf rendering and Favorites filter visibility",
+        "Add missing Compose material icon dependency to fix build"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add missing Compose material icon dependency to fix build",
+      "changeCount": 6,
+      "truncated": false
+    },
+    {
+      "number": 145,
+      "date": "2026-10-02",
+      "manifestCommit": "6f1f89cd34ec9b33d5575bd583ece6ab9c95c848",
+      "source": "801cb49e3407844a3947425aa3e2968e8827dccb",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37057220564",
+      "changes": [
+        "Fix narrow Fold library list metrics and give Systems dedicated console collections",
+        "Always expose Library console filter even with only one imported system"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Always expose Library console filter even with only one imported system",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 143,
+      "date": "2026-10-02",
+      "manifestCommit": "b1a5aa60718735793a6f86a4d2a328d9fa11518b",
+      "source": "508851de4e480e19d7603bee9020b44e588cc314",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37055740830",
+      "changes": [
+        "Build console-grouped Systems tab with NES playable status and future console sections",
+        "Align gameplay statistics across Systems and Library and rank Played by duration",
+        "Add ROM import dates beside game activity metrics in all views"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add ROM import dates beside game activity metrics in all views",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 140,
+      "date": "2026-10-02",
+      "manifestCommit": "6b17370a758dfec75d50307cc9beea635c2378e4",
+      "source": "07e4b3a69edbf1ba7473cb465636baba732f325a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37052952977",
+      "changes": [
+        "Display gameplay duration, launches and last-played on home Recent cards",
+        "Show playtime, launches and last played in both Favorites card layouts"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Show playtime, launches and last played in both Favorites card layouts",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 138,
+      "date": "2026-10-02",
+      "manifestCommit": "88935894d8d402ba773b6e1046b92581da909fdf",
+      "source": "eb8ccf0c042731739b4b041502c420c4b8ca6ea0",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37051365656",
+      "changes": [
+        "Expose short recorded sessions in library list instead of displaying zero minutes",
+        "Persist last-played timestamps alongside live gameplay and background time"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Persist last-played timestamps alongside live gameplay and background time",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 136,
+      "date": "2026-10-02",
+      "manifestCommit": "b3ef72b36603c75fcbeac6b4e3baa07a61e72daf",
+      "source": "10f778c15fdd8d0782dd2c967b58a5da85f3f401",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37046760003",
+      "changes": [
+        "Rank Most Played by total playtime throughout game views",
+        "Show launch count metric in library list and grid"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Show launch count metric in library list and grid",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 134,
+      "date": "2026-10-02",
+      "manifestCommit": "29683c2ae4a6bb4618ca841d54d16740fb7f890f",
+      "source": "e608c30c12a31506b9b9b9c598206e029ebb86a7",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37044577136",
+      "changes": [
+        "Avoid stale cached manifests during in-app update checks",
+        "Recheck app updates whenever Command Center returns to foreground"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Recheck app updates whenever Command Center returns to foreground",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 132,
+      "date": "2026-10-02",
+      "manifestCommit": "259792daa879283b6401df2a95e69ab5cd90ff99",
+      "source": "ee76a1e6211725bb89451f3dfbc497040a039ce2",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37040502633",
+      "changes": [
+        "Display accurate short and long playtime labels in library grid"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Display accurate short and long playtime labels in library grid",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 131,
+      "date": "2026-10-02",
+      "manifestCommit": "27c84bfdd5f3cbf333156694aafdb467e98e5ff3",
+      "source": "387f6cd7c6e21d7af3f2aaf8c97173b3070756c4",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37037219837",
+      "changes": [
+        "Balance library grid across phone and unfolded tablet layouts"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Balance library grid across phone and unfolded tablet layouts",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 130,
+      "date": "2026-10-02",
+      "manifestCommit": "dab48ccc5f5bfff4b0b185ef087dcf7591f88c25",
+      "source": "51c659723a4001646fc8c0568e174df6455840f8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37027718781",
+      "changes": [
+        "Add persistent adaptive cover grid and list toggle to game library"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add persistent adaptive cover grid and list toggle to game library",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 129,
+      "date": "2026-10-02",
+      "manifestCommit": "56534716f5eff3df1685302ef5fadd0bfc2631e2",
+      "source": "1d9af0bdc7e69828af52038dec1e1387bf385739",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37015366277",
+      "changes": [
+        "Give library more vertical space with compact screen-specific header"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Give library more vertical space with compact screen-specific header",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 128,
+      "date": "2026-10-02",
+      "manifestCommit": "7b3545b6ad3f377674fc4a14a27f624fc40e1e35",
+      "source": "0e2912a9092f2a21b421a67c3ac23b3882274cc7",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37014167328",
+      "changes": [
+        "Compact library cards and keep game list within scrollable viewport"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Compact library cards and keep game list within scrollable viewport",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 127,
+      "date": "2026-10-02",
+      "manifestCommit": "14965d5d0f92d5eaf7a0d4ba159dabc3349fe70f",
+      "source": "df194794a4f8ef1adc0655ab6f09e9be67f33660",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/37011621874",
+      "changes": [
+        "Start premium library overhaul with responsive controls and library summary",
+        "Add interactive sorting controls to premium game library"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add interactive sorting controls to premium game library",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 125,
+      "date": "2026-10-02",
+      "manifestCommit": "3027e2dcd4af1e00dc6a256d5716fbbfde11aaff",
+      "source": "291653472c8ac930c0163be359f1fd2cab578a60",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36946793159",
+      "changes": [
+        "Release publication recorded; no separately documented product change in this source interval."
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Record future device-specific optimization profiles",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 124,
+      "date": "2026-10-02",
+      "manifestCommit": "0d4cc631999b8fbc2f30993b90d73fbe6c8edce2",
+      "source": "8084b505032a808f9c512e7ce4c6f726d36d8813",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36945246708",
+      "changes": [
+        "Automatically scan newly imported ROMs for artwork while preserving library metadata",
+        "Keep automatic artwork scan alive when scan status changes"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Keep automatic artwork scan alive when scan status changes",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 122,
+      "date": "2026-10-01",
+      "manifestCommit": "cef1f9068d95124145041bc8081f2f6ab9181490",
+      "source": "7733ba9cec9c9f8c613fcca2e9c681845b4b27db",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36941853055",
+      "changes": [
+        "Replace hanging artwork catalog scan with bounded direct cover lookup"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Replace hanging artwork catalog scan with bounded direct cover lookup",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 121,
+      "date": "2026-10-01",
+      "manifestCommit": "a3da0c93c485b3882c7d28196c097ce411d027f3",
+      "source": "43b6a5b61dcf69d2924f45e806ff03fae111335a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36941189238",
+      "changes": [
+        "Report artwork catalog failures and scan progress",
+        "Display artwork catalog loading and matching status",
+        "Persist launch counts and preserve history when rescanning",
+        "Update recently played at launch and rank most played by sessions",
+        "Autosave game playtime every five seconds during active sessions",
+        "Autosave gameplay each second and flush on app background",
+        "Declare lifecycle Compose dependency for gameplay tracking"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Declare lifecycle Compose dependency for gameplay tracking",
+      "changeCount": 8,
+      "truncated": false
+    },
+    {
+      "number": 113,
+      "date": "2026-10-01",
+      "manifestCommit": "9bc82c6a993de998ad55e7da7e858d7924566740",
+      "source": "ad9d87151bc98186d34fdf908cf83b6df9b1bb3c",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36940169407",
+      "changes": [
+        "Add automatic Libretro game cover matcher and downloader",
+        "Add automatic artwork scanning button to library"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add automatic artwork scanning button to library",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 111,
+      "date": "2026-10-01",
+      "manifestCommit": "3e9b454ed3c6b6870e154950ca6363e6f151d8b4",
+      "source": "06e60df75c919b12cd724ac3eee3e1bcaaf7059e",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36939604623",
+      "changes": [
+        "Show updater progress, installation permissions and download errors"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Show updater progress, installation permissions and download errors",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 110,
+      "date": "2026-10-01",
+      "manifestCommit": "0bcda30579e39123ec3c15608611205c6b3d119d",
+      "source": "a7f2ee23341c33b90a0171f21d9df03761e5c446",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36937354571",
+      "changes": [
+        "Prioritize simultaneous touch gameplay input over global swipe gesture",
+        "Use explicit pointer hold loop for touch controls",
+        "Fix Compose pointer input compilation error"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Fix Compose pointer input compilation error",
+      "changeCount": 4,
+      "truncated": false
+    },
+    {
+      "number": 106,
+      "date": "2026-10-01",
+      "manifestCommit": "00a388afa4740b50a94ab285ef459b513444fd2d",
+      "source": "fff1e1f04d7c53a3f0cd8b90be4200788ea05bc9",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36930779619",
+      "changes": [
+        "Preserve Home and Settings scroll positions across navigation"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Preserve Home and Settings scroll positions across navigation",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 105,
+      "date": "2026-10-01",
+      "manifestCommit": "e5dff08c7220808215c6608e15a65a6f568f63d3",
+      "source": "5e38d412fdebe85a569833a67f40d9c0ea28d94b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36930372937",
+      "changes": [
+        "Constrain background slider and align darkness label"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Constrain background slider and align darkness label",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 104,
+      "date": "2026-10-01",
+      "manifestCommit": "ab26f354e95b8804af1f35274bd34a427d7445c4",
+      "source": "c479b0dfea08c6039db9633b392c47ccf42b1103",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36929217331",
+      "changes": [
+        "Compact Settings background selection and theme cards"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Compact Settings background selection and theme cards",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 103,
+      "date": "2026-10-01",
+      "manifestCommit": "2521208136e37e6b3f635c65326eff795bd6c484",
+      "source": "59c3248092f03c70573ab9954937b2d79bd0be27",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36926858774",
+      "changes": [
+        "Compact featured card and display clean game titles"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Compact featured card and display clean game titles",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 102,
+      "date": "2026-10-01",
+      "manifestCommit": "6062dcde19a466cbe2e8452ba6791e2cf6f66770",
+      "source": "314ea6993b6f0d7e2f4e4f96953bbd8b6df479c7",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36925304858",
+      "changes": [
+        "Detect custom background luminance to select readable text"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Detect custom background luminance to select readable text",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 101,
+      "date": "2026-10-01",
+      "manifestCommit": "d6c6b0ae797b982b23b4a2970cd001fedb1d58d0",
+      "source": "6a213762e2867bb43958063fe829d9d09a6180a9",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36923318281",
+      "changes": [
+        "Correct shared screen and Library card text contrast",
+        "Fix Systems screen text contrast"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Fix Systems screen text contrast",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 99,
+      "date": "2026-10-01",
+      "manifestCommit": "1424fbb644684b65074ec75e195e4075fd5a427f",
+      "source": "bcb567eec25e89bcd54f27d6c6b040db9a6f201d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36922589778",
+      "changes": [
+        "Fix Settings headings and selected theme card text contrast"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Fix Settings headings and selected theme card text contrast",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 98,
+      "date": "2026-10-01",
+      "manifestCommit": "6ca474081f4bd09daaa39893fb88779e90de4e49",
+      "source": "085b7dbb8b5756e99d2ae6ff34e0a8edebbf8ae5",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36921238015",
+      "changes": [
+        "Keep featured title clear of artwork and compact Home spacing",
+        "Fix Recent heading contrast on custom backgrounds",
+        "Tie Home typography colors to background and theme settings"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Tie Home typography colors to background and theme settings",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 95,
+      "date": "2026-10-01",
+      "manifestCommit": "635a6819bffb0924cfe7301b267c55ab97e73e9e",
+      "source": "d30162c95f338ed5527c15c679adc5e4000d7362",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36912095855",
+      "changes": [
+        "Improve Home contrast and contain featured artwork"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Improve Home contrast and contain featured artwork",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 94,
+      "date": "2026-10-01",
+      "manifestCommit": "2315334eaa2fde460a075f206a4702fc29bd1777",
+      "source": "ba16275410d221836514fc7bc80dd774ce3544d8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36811895793",
+      "changes": [
+        "Clean up Home controls and fix background text contrast",
+        "Streamline Home menus and redesign Library cards"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Streamline Home menus and redesign Library cards",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 92,
+      "date": "2026-10-01",
+      "manifestCommit": "f2b6088e269a230e6e63b6cb00b5965aa8725ffb",
+      "source": "1e077e3569ebe2744ca7b8ea981f60925bbdb25d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36810207518",
+      "changes": [
+        "Add Favorites filters and Home collection sorting"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add Favorites filters and Home collection sorting",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 91,
+      "date": "2026-10-01",
+      "manifestCommit": "60f283cfeb214727e08c575398c6e08b7956411c",
+      "source": "b49178c2c118ea4104a267a315c97089b60f3cf6",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36807645950",
+      "changes": [
+        "Persist game import dates across rescans"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Persist game import dates across rescans",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 89,
+      "date": "2026-10-01",
+      "manifestCommit": "4e2ff62eaf8878d6034dbf2bbbe0a54b8f9cce0a",
+      "source": "786d6e0d16c4ee9219fc6ecf680545e010fd4bf4",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36805303647",
+      "changes": [
+        "Fix settings scrolling and separate game art from backgrounds"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Fix settings scrolling and separate game art from backgrounds",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 88,
+      "date": "2026-10-01",
+      "manifestCommit": "dc8abe8dd1ab11ac1d5f24bdedb832575b4cfbe7",
+      "source": "b3878b50e1f9bdeec730b2ee3fa7049fbdbcfd41",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36801810519",
+      "changes": [
+        "Add selectable gaming background gallery"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add selectable gaming background gallery",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 87,
+      "date": "2026-10-01",
+      "manifestCommit": "7adf5cc8a054bb74dd6dc2020b0818e6b54d0a6b",
+      "source": "77404a45d26adbac96f1d776e1733094ca0a73ce",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36800384628",
+      "changes": [
+        "Add persistent app background options"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add persistent app background options",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 86,
+      "date": "2026-10-01",
+      "manifestCommit": "642bd0c369443a32fcf6cb6d82fc468cbdd2c3c6",
+      "source": "a30b5d69bd8ec6751dc82dc5f56c5d6a0e148d0c",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36800131588",
+      "changes": [
+        "Add persistent preset color themes"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add persistent preset color themes",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 85,
+      "date": "2026-10-01",
+      "manifestCommit": "84a03311185e94312ff4cbee19409820887e4910",
+      "source": "0a81a6c517c0da1618eea530f304bab328be9387",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36799303037",
+      "changes": [
+        "Upgrade Home with artwork hero and recent game cards"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Upgrade Home with artwork hero and recent game cards",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 84,
+      "date": "2026-10-01",
+      "manifestCommit": "be9235cb3788fafa1ee361b6cf629643ce792c27",
+      "source": "6f1e2bc0dee92059c965ff2b2393dbeb3f9b5ed5",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36798858065",
+      "changes": [
+        "Add Grid and List views for Favorites"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add Grid and List views for Favorites",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 83,
+      "date": "2026-10-01",
+      "manifestCommit": "e1d5259cd6283997476c479d0c8bca4282dcb9ec",
+      "source": "3fd9f095c62d51d31998104a86c9b19191abff0e",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36798251591",
+      "changes": [
+        "Make Home vertically scrollable so favorite metadata stays visible"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Make Home vertically scrollable so favorite metadata stays visible",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 82,
+      "date": "2026-10-01",
+      "manifestCommit": "ff3e4940eb2c94cec086057e6a8036f6c31af8c2",
+      "source": "4d18ed58b4b660495d8b57ff57c1bda34d7729cc",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36797522694",
+      "changes": [
+        "Keep Favorites visible and show game metadata",
+        "Repair Favorites home section layout"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Repair Favorites home section layout",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 80,
+      "date": "2026-10-01",
+      "manifestCommit": "2a71a1f3fcf70fd2b6294dcdcaa0c1aeba6eedae",
+      "source": "577eebd2b991cb31e4230774e86f84490c24bc5b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36796295275",
+      "changes": [
+        "Use Android photo picker for custom game artwork",
+        "Fix photo picker request type",
+        "Launch favorite games directly from Home"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Launch favorite games directly from Home",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 77,
+      "date": "2026-10-01",
+      "manifestCommit": "5435de72947fa835e0fd7ac96b1deb63764d8d41",
+      "source": "c35862710cc4c8ea34d2c9f41364ea82e83a7f15",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36793956976",
+      "changes": [
+        "Expose favorites, custom artwork, and playtime in UI",
+        "Add Compose image loading for custom game artwork"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add Compose image loading for custom game artwork",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 75,
+      "date": "2026-09-30",
+      "manifestCommit": "0a2600ed3fab9f8dd2a3d81f24d1846820a9069b",
+      "source": "607fde542cc4d08a6803153e3e638fdf22b0f11d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36792710168",
+      "changes": [
+        "Add favorites custom artwork and playtime tracking",
+        "Prevent stale builds from overwriting newer updates"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Prevent stale builds from overwriting newer updates",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 74,
+      "date": "2026-09-30",
+      "manifestCommit": "b11a0ab351fe8fe0940d99f7449e9236fe698daa",
+      "source": "df05ceecf5c4284f4227b6e56f480e56bf2f5e31",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36791374853",
+      "changes": [
+        "Persist game personalization metadata",
+        "Add favorites custom artwork and playtime tracking"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add favorites custom artwork and playtime tracking",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 73,
+      "date": "2026-09-30",
+      "manifestCommit": "3fed2ba5243db8454b44503565495e8ccbfd5b7e",
+      "source": "79709292d1a8d4849f23604b8b8b0474912d5847",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36791340816",
+      "changes": [
+        "Release publication recorded; no separately documented product change in this source interval."
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Persist game personalization metadata",
+      "changeCount": 0,
+      "truncated": false
+    },
+    {
+      "number": 72,
+      "date": "2026-09-30",
+      "manifestCommit": "d65363a726bcfce3369267c0e24c908275bb1a04",
+      "source": "e8d16d567a67d9bbb54d32873070a008ea7ac10f",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36791330868",
+      "changes": [
+        "Expand game records for favorites artwork and playtime"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Expand game records for favorites artwork and playtime",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 71,
+      "date": "2026-09-30",
+      "manifestCommit": "864e75bfdc89197953dfcacce5f44fbbc28d83de",
+      "source": "7790e8a63139b4f0f13bca887aa20b49e12ea67b",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36788319099",
+      "changes": [
+        "Redesign home and library as gaming dashboard"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Redesign home and library as gaming dashboard",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 70,
+      "date": "2026-09-30",
+      "manifestCommit": "a0c3800574f1466a61ba57018716ad9ca3214c35",
+      "source": "6ae5fd730f39e9cb61d88dcf476ea26636f1befc",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36785904882",
+      "changes": [
+        "Polish in-game controls and save confirmation"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Polish in-game controls and save confirmation",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 69,
+      "date": "2026-09-30",
+      "manifestCommit": "a7d1e03329706635e9728c2cfc972347328f3319",
+      "source": "a8b57165187cafba18be104f5b19cb11db189d65",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36785894480",
+      "changes": [
+        "Introduce Command Center visual identity"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Introduce Command Center visual identity",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 68,
+      "date": "2026-09-30",
+      "manifestCommit": "27625071da79c5e0627abe98da8e59367f7ca580",
+      "source": "dff23b5b849129a3aa465866bae95ee2e2f016ee",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36784778695",
+      "changes": [
+        "Add save-state confirmation dialog with timestamp"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add save-state confirmation dialog with timestamp",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 67,
+      "date": "2026-09-30",
+      "manifestCommit": "1a04d9c5aea259d2ff3fdda4458c31351b7dbd14",
+      "source": "95314f2c18ca077431a69553537d7a89d0be2315",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36784327764",
+      "changes": [
+        "Show gameplay confirmation when loading state"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Show gameplay confirmation when loading state",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 66,
+      "date": "2026-09-30",
+      "manifestCommit": "577646deb0e1db47fdeee9135af8e24b67e85e28",
+      "source": "ee95803a0907b578daeb9d484c3b18b36b61916e",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36776592136",
+      "changes": [
+        "Refine NES touch control spacing"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Refine NES touch control spacing",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 65,
+      "date": "2026-09-30",
+      "manifestCommit": "8c059eb7297536a31dda33a613e45adbf0cb6060",
+      "source": "3177d2309b094321437f0cb033ab568c89045510",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36775746744",
+      "changes": [
+        "Display installed build version dynamically"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Display installed build version dynamically",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 64,
+      "date": "2026-09-30",
+      "manifestCommit": "7fce1429285084e3443c6f0f009580365966f5cc",
+      "source": "4fa691a79a7abd402562c2f220c547985b3b7336",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36774179770",
+      "changes": [
+        "Polish foldable NES control layout"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Polish foldable NES control layout",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 63,
+      "date": "2026-09-30",
+      "manifestCommit": "8aae3ce831f5778997da18429f9bec26434905c4",
+      "source": "5c0de20c5070ba649ce170e5cba8fda95c318751",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36769514423",
+      "changes": [
+        "Preserve gameplay across fold and orientation changes"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Preserve gameplay across fold and orientation changes",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 62,
+      "date": "2026-09-30",
+      "manifestCommit": "16939b32660a5e87ebc1792b3191c47a9a130f46",
+      "source": "869d41a35ba2922de38e07ee4823f140dfadf4be",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36769511149",
+      "changes": [
+        "Scale NES controls for compact displays"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Scale NES controls for compact displays",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 61,
+      "date": "2026-09-30",
+      "manifestCommit": "6405eb2e7f8e01d3291c3cf98794e04addeae738",
+      "source": "b8fc833148c4fcabb58853c17df3d45d35a54d26",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36671337342",
+      "changes": [
+        "Finalize shoulder controls and R2 turbo binding"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Finalize shoulder controls and R2 turbo binding",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 60,
+      "date": "2026-09-30",
+      "manifestCommit": "8681815d4fcb2f967f9fcd1ee6e14716d215b710",
+      "source": "3edc2a93df0c9b9242f6d5d6804bb92d6bd6377a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36670076437",
+      "changes": [
+        "Publish post-59 updater validation build"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Publish post-59 updater validation build",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 59,
+      "date": "2026-09-30",
+      "manifestCommit": "098cd29e233ed254392eda18a50f501a31860b45",
+      "source": "8758f9f24b0d19f2c0d1b9bbd94a44d90aecf72d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36669576558",
+      "changes": [
+        "Mark build 59 updater validation"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Mark build 59 updater validation",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 58,
+      "date": "2026-09-30",
+      "manifestCommit": "f482c492ef5bf8809849e988ecc876b1c6ed4303",
+      "source": "b691a87b8be2023cccf9cea9bcfe4f24364b0aa9",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36667009468",
+      "changes": [
+        "Verify downloaded APK before installer handoff"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Verify downloaded APK before installer handoff",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 57,
+      "date": "2026-09-30",
+      "manifestCommit": "3088cf86976a0d084203d4bec0229c66f5308425",
+      "source": "63de4d507950a3003f0dbe2fe7c1ae416a630a25",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36665130050",
+      "changes": [
+        "Use Android installer UI for development updates"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Use Android installer UI for development updates",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 56,
+      "date": "2026-09-30",
+      "manifestCommit": "8b1c8d4a76fea443be4d4900a9cb8277740a871d",
+      "source": "ed1e49e283e24bc31a056b39c11e545332c74009",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36663483231",
+      "changes": [
+        "Declare downloaded source for self update sessions"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Declare downloaded source for self update sessions",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 55,
+      "date": "2026-09-30",
+      "manifestCommit": "c782b4ffb31a7862fda4419897898ff45bb75d9d",
+      "source": "bf6b7242978fb052f208d46891f9885d8ad65c20",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36661578476",
+      "changes": [
+        "Release publication recorded; no separately documented product change in this source interval."
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Track requested and installed update versions",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 54,
+      "date": "2026-09-30",
+      "manifestCommit": "dee31c544be59ede550588cc570a1dd73e9e8540",
+      "source": "a383f250d66a03e84460d47a63173f8fcd59003d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36661571070",
+      "changes": [
+        "Persist package installer results across app restart"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Persist package installer results across app restart",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 53,
+      "date": "2026-09-30",
+      "manifestCommit": "26e709b0841d937942f4fa7095d02c10a9ba45ef",
+      "source": "87f281d0be61e4880307f0dde58ed7685687c449",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36661143172",
+      "changes": [
+        "Polish in-game menu and edge swipe controls"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Polish in-game menu and edge swipe controls",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 52,
+      "date": "2026-09-30",
+      "manifestCommit": "cdb9081c0341674c93d8e512c1ae8cedec0fec8b",
+      "source": "55290c227d2890b711c2b82bedeaaa1b2db0ce72",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36659978777",
+      "changes": [
+        "Add updater validation build marker"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add updater validation build marker",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 51,
+      "date": "2026-09-30",
+      "manifestCommit": "57b88f58db9af8b8b1e5f75697d693b13766e7a7",
+      "source": "ed5195fe7932154eca102a5716b622a74d0d2ad0",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36655418958",
+      "changes": [
+        "Surface in-app update install status"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Surface in-app update install status",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 50,
+      "date": "2026-09-30",
+      "manifestCommit": "5873004fb01308e69ec5b82410e3b3edcbe0c505",
+      "source": "0f8ed0eb6acd923a9c273e972c13771cdc6528d6",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36655397239",
+      "changes": [
+        "Report package installer update results"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Report package installer update results",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 49,
+      "date": "2026-09-30",
+      "manifestCommit": "8cc9dad870d5ecc3a1f6634935c464023f62fb5d",
+      "source": "2c82c0b160bb274bc52df676071069b7389d812d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36654483180",
+      "changes": [
+        "Polish in-game display menu transitions"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Polish in-game display menu transitions",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 48,
+      "date": "2026-09-30",
+      "manifestCommit": "c608f6f1fed77a7b01d2a0f261c788939dfd3e0b",
+      "source": "2af26ff6152b16d26ceb1685f3dc3fb1f9ce1991",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36654474838",
+      "changes": [
+        "Open in-game menu with horizontal swipe"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Open in-game menu with horizontal swipe",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 47,
+      "date": "2026-09-30",
+      "manifestCommit": "6324fd16d5b51ce7c6ae19b13a9ea8d44308252a",
+      "source": "86c93548a502ec27e7e198d00cf816aeeedbd054",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36654367648",
+      "changes": [
+        "Replace prototype player actions with game menu"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Replace prototype player actions with game menu",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 46,
+      "date": "2026-09-30",
+      "manifestCommit": "e5d5fa6c1912f61aa0f9fc18db330b8e5b357709",
+      "source": "4beb6f429bf51d459c0746d3dce23148017efb45",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36649376177",
+      "changes": [
+        "Add selectable emulator display modes"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add selectable emulator display modes",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 45,
+      "date": "2026-09-30",
+      "manifestCommit": "de1fc2c4f9a2f54afae96e6c7b033b06405dff11",
+      "source": "37707311e67d8cbb9dc1406d279e3c2be45a0644",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36649358996",
+      "changes": [
+        "Add persistent emulator display modes"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add persistent emulator display modes",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 44,
+      "date": "2026-09-30",
+      "manifestCommit": "e1408c94b1630df8450ebfb955455d535040596b",
+      "source": "b18ce110d856b3992c8a30b8b1f21debe127041a",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36648685800",
+      "changes": [
+        "Release publication recorded; no separately documented product change in this source interval."
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Merge games across remembered ROM folders",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 43,
+      "date": "2026-09-30",
+      "manifestCommit": "737003a7e4cb2237621fc5b00efd22aaf7c52e2a",
+      "source": "014d050afed56d67294bac63d00002d682ab31b4",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36648673537",
+      "changes": [
+        "Scan multiple ROM folders safely"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Scan multiple ROM folders safely",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 42,
+      "date": "2026-09-30",
+      "manifestCommit": "8a8a128689163acace0ef3ba082872ac4e0545d5",
+      "source": "eea5031c1fe02289d6d5e2f51ba060eb2ddc1b3d",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36648665867",
+      "changes": [
+        "Register update install status receiver",
+        "Persist multiple ROM library folders"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Persist multiple ROM library folders",
+      "changeCount": 2,
+      "truncated": false
+    },
+    {
+      "number": 41,
+      "date": "2026-09-29",
+      "manifestCommit": "6865e1f5bf0eca8f95367ae71ce4764ceeed7cd1",
+      "source": "173f6ad8a2e8d4a732e8542fe24eac9728ff011c",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36647396146",
+      "changes": [
+        "Use PackageInstaller sessions for in-app updates",
+        "Handle package installer update confirmation",
+        "Register update install status receiver"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Register update install status receiver",
+      "changeCount": 3,
+      "truncated": false
+    },
+    {
+      "number": 40,
+      "date": "2026-09-29",
+      "manifestCommit": "43c43a170d3388e0ba952795c154e4d9e820a71e",
+      "source": "dd33765857e5a3dcdae75a6e54c1513f90c1d189",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36647392540",
+      "changes": [
+        "Release publication recorded; no separately documented product change in this source interval."
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Handle package installer update confirmation",
+      "changeCount": 0,
+      "truncated": false
+    },
+    {
+      "number": 38,
+      "date": "2026-09-29",
+      "manifestCommit": "8f2fa3b833bb1e21b990a9fa7af8c92019f18f8b",
+      "source": "08e29d8f64262dd9c960eb5cf12ea56d3b318ce1",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36647243234",
+      "changes": [
+        "Add touchscreen shoulder trigger and stick controls"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add touchscreen shoulder trigger and stick controls",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 37,
+      "date": "2026-09-29",
+      "manifestCommit": "732693676dbf082877487674954a461ae615c01e",
+      "source": "6816945833618191293d356a71e664c0cca54709",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36645642663",
+      "changes": [
+        "Add hold R2 fast-forward for NES"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Add hold R2 fast-forward for NES",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 36,
+      "date": "2026-09-29",
+      "manifestCommit": "4a2f564c9a83b18d7e9c3afacfe122eb7d1747ad",
+      "source": "fcb5851175db290a4176af9a60aad2f99f3af2ce",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36645587251",
+      "changes": [
+        "Map full controller shoulder trigger and stick buttons"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Map full controller shoulder trigger and stick buttons",
+      "changeCount": 1,
+      "truncated": false
+    },
+    {
+      "number": 35,
+      "date": "2026-09-29",
+      "manifestCommit": "effe80bb3662d7b66e81fe1b167130d8ead535da",
+      "source": "4c6a717cc1bc0dfced219a2638088256228423c8",
+      "run": "https://github.com/mercurym4/Command-Center/actions/runs/36644325025",
+      "changes": [
+        "First surviving published update-channel release; includes the initial development history below.",
+        "Initialize README.md",
+        "Initialize .gitignore",
+        "Initialize settings.gradle.kts",
+        "Initialize build.gradle.kts",
+        "Initialize gradle.properties",
+        "Add app/build.gradle.kts",
+        "Add app/src/main/AndroidManifest.xml",
+        "Add app/src/main/res/values/themes.xml",
+        "Add app/src/main/java/com/commandcenter/app/emulation/EmulationEngine.kt",
+        "Add app/src/main/java/com/commandcenter/app/MainActivity.kt",
+        "Make game folder import functional",
+        "Add local game library scanner",
+        "Add recursive game library scanning",
+        "Persist imported game library",
+        "Restore saved library on startup",
+        "Fix library initialization order",
+        "Add docs/CORE_LICENSING.md",
+        "Add app/src/main/java/com/commandcenter/app/emulation/EngineRegistry.kt",
+        "Add app/src/main/java/com/commandcenter/app/emulation/nes/NesEngine.kt",
+        "Add app/src/main/cpp/CMakeLists.txt",
+        "Add app/src/main/cpp/commandcenter_native.cpp",
+        "Add app/src/main/java/com/commandcenter/app/emulation/nativebridge/NativeEmulationBridge.kt",
+        "Enable ARM64 native emulator build",
+        "Add app/src/main/cpp/libretro.h",
+        "Add app/src/main/java/com/commandcenter/app/emulation/nativebridge/NativeNesBridge.kt",
+        "Add docs/NES_INTEGRATION.md",
+        "Add .github/workflows/android.yml",
+        "Implement guarded libretro NES JNI frontend",
+        "Connect NES engine to native frontend and save states",
+        "Add scripts/build-fceumm.sh",
+        "Add vendor/README.md",
+        "Add app/src/main/jniLibs/README.md",
+        "Link native frontend with dynamic loader",
+        "Build pinned NES core in Android CI",
+        "Dynamically load bundled FCEUmm core",
+        "Make Android CI self-contained",
+        "Implement app/src/main/java/com/commandcenter/app/emulation/input/NesInput.kt",
+        "Implement app/src/main/java/com/commandcenter/app/emulation/nativebridge/NativeNesBridge.kt",
+        "Implement app/src/main/java/com/commandcenter/app/ui/player/NesPlayerScreen.kt",
+        "Add NES framebuffer and controller callbacks",
+        "Launch NES games from library",
+        "Clean NES launch screen integration",
+        "Fix Android SDK setup and publish debug APK artifact",
+        "Locate sdkmanager on hosted runner",
+        "Package FCEUmm Android libretro output",
+        "Align Android Java and Kotlin JVM targets",
+        "Harden NES ROM lifetime and video pixel formats",
+        "Use NES core reported AV timing",
+        "Use NES core reported AV timing",
+        "Use NES core reported AV timing",
+        "Use NES core reported AV timing",
+        "Add NES PCM audio output",
+        "Add NES player reset and save-state controls",
+        "Fix FCEUmm ROM loading with content filename",
+        "Provide FCEUmm extended game content info",
+        "Add NES touchscreen controls",
+        "Stabilize development APK signing and versioning",
+        "Make NES player immersive and keep touch controls reachable",
+        "Reassert immersive mode for Samsung foldables",
+        "Add in-app development updater",
+        "Publish development builds to update channel"
+      ],
+      "evidence": "matching workflow build",
+      "summary": "Publish development builds to update channel"
+    }
+  ]
+}
